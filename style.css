@@ -1,78 +1,166 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: antiquewhite;
+body {
+  background-color: white;
 }
 
-.header{
-    position: fixed;
-    width: 100%;
+.header {
+  position: fixed;
+  width: 100%;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: green;
-    align-items: center;
-    /* gap: 400px; */
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: green;
+  align-items: center;
+  /* gap: 400px; */
+  width: 100%;
 }
 
 ul {
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
-    color: white;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  color: white;
 }
 
 .social {
-    gap: 80px;
+  gap: 80px;
 }
 
 .pop-up {
-text-align: center;
-background-color: white;
-padding-top: 10px;
-padding-bottom: 10px;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.hero-section{
-    background-image: url(image/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* height: 800px; */
-    text-align: center;
-
+.hero-section {
+  background-image: url(image/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 800px; */
+  text-align: center;
 }
 
-.hero-section h1{
-    color: white;
-    padding-top: 220px;
-    font-size: 80px;
+.hero-section h1 {
+  color: white;
+  padding-top: 220px;
+  font-size: 80px;
 }
 
-.hero-section p{
-    color: white;
-    padding-top: 20px;
+.hero-section p {
+  color: white;
+  padding-top: 20px;
 }
 
 .hero-section button {
-    background-color: white;
-    border-style: none;
-    padding: 10px 30px;
-    border-radius: 5px;
-    margin-top: 30px;
-    margin-bottom: 220px;
+  background-color: white;
+  border-style: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 220px;
 }
 
 .hero-section button:hover {
-    background-color: green;
+  background-color: green;
+}
+
+.hero-section-product h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.product {
+  width: 16%;
+  /* background-color: white; */
+}
+
+.product-text {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .cart{
+    background-color: white;
+} */
+
+.product-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.product-2-img {
+  display: grid;
+}
+
+.product-2-img a {
+  background-color: green;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.hero-section-3 h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.hero-section-4{
+    background-image: url(image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+
+}
+
+.hero-section-4 h1{
+    padding-top: 150px;
+    color: white;
+}
+
+.hero-section-4 div{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.384);
+    padding: 20px 15px;
+    width: 6%;
+    border-radius: 200px;
+    justify-self: center;
+}
+
+.hero-section-4 div i{
+    font-size: 40px;
+}
+
+.hero-section-4 .button{
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 50px;
 }
